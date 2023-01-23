@@ -10,9 +10,23 @@ console.log('Quanti anni hai?' + quantiAnni);
 
 // prima regola: ogni km va moltiplicato per 0.21 euro
 
+let costoBiglietto = numeroKm * 0.21
+
+document.getElementById('quantoPaghi').innerHTML;
+
+const quantoPaghi = per fare $('numeroKm') pagherai $('quantoPaghi');
+
 // seconda regola: se l'età dell'utente è <18 anni al prezzo risultante dalla moltiplicazione si applica uno sconto del 20%
+
+
+if (quantiAnni<18) {
+
+}
 
 // terza regola: se l'età dell'utente è > 65 anni al prezzo risultante dalla moltiplicazione si applica uno sconto del 40%
 
+if (quantiAnni >65) {
+
+}
 
 // output del prezzo totale deve apparire con due decimali
