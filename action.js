@@ -1,10 +1,12 @@
 // chiedo all'utente il numero di km che vuole percorrere
 
 const numeroKm = prompt ('Quanti km devi percorrere?')
+console.log('Quanti km devi percorrere?' + numeroKm);
 
 // chiedo all'utente la sua età
 
 const quantiAnni = prompt('Quanti anni hai?')
+console.log('Quanti anni hai?' + quantiAnni);
 
 // prima regola: ogni km va moltiplicato per 0.21 euro
 
