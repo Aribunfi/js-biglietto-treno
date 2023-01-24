@@ -5,8 +5,10 @@ console.log('Quanti km devi percorrere?' + numeroKm);
 
 // chiedo all'utente la sua età
 
-const quantiAnni = prompt('Quanti anni hai?')
+const userAge = prompt('Quanti anni hai?')
 console.log('Quanti anni hai?' + quantiAnni);
+
+
 
 // prima regola: ogni km va moltiplicato per 0.21 euro
 
@@ -19,13 +21,13 @@ const quantoPaghi = per fare $('numeroKm') pagherai $('quantoPaghi');
 // seconda regola: se l'età dell'utente è <18 anni al prezzo risultante dalla moltiplicazione si applica uno sconto del 20%
 
 
-if (quantiAnni<18) {
+if (userAge<18) {
 
 }
 
 // terza regola: se l'età dell'utente è > 65 anni al prezzo risultante dalla moltiplicazione si applica uno sconto del 40%
 
-if (quantiAnni >65) {
+if (userAge >65) {
 
 }
 
